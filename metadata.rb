@@ -1,0 +1,10 @@
+name 'chef-reverseproxy'
+maintainer 'Stephane LII'
+maintainer_email 'stephane.lii@informatique.gov.pf'
+license 'Apache 2.0'
+description 'Installs/Configures chef-reverseproxy'
+long_description 'Installs/Configures chef-reverseproxy'
+version '0.1.0'
+
+depends 'apache2'
+depends 'hostsfile'
